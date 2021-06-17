@@ -20,3 +20,12 @@ Invistigar funcionamiento API Idescat.cat
  ```sh
     https://www.idescat.cat/
  ```
+
+# controller.py
+Crear el objeto principal, donde se van a realizar todas las peticiones.
+  * Obtener ID de una poblacion(poder buscarla)
+  * Obtener Informacion de una poblacion, mediante su ID(Falta darte formato a la info)
+  * Obtener todas las poblaciones
+
+# main.py
+Donde realiza la busqueda del apoblacion y su info
