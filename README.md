@@ -29,3 +29,16 @@ Crear el objeto principal, donde se van a realizar todas las peticiones.
 
 # main.py
 Donde realiza la busqueda del apoblacion y su info
+
+
+## 2 Day
+Continuar trabajando con la api de Idescat.cat
+
+Añadir funciones para interpretar la informacion que la API nos da sobre las poblaciones.
+  * Datos de superficie/Densidad
+  * Datos poblacion dividida por sexo
+  * Datos poblacion dividida por edad
+  * Datos poblacion dividida por edad Hombres
+  * Datos poblacion dividida por edad Mujeres
+  *  Datos poblacion dividida por lugar de nacimiento
+  *   Datos poblacion dividida por nacionalidad
