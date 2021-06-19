@@ -42,3 +42,12 @@ Añadir funciones para interpretar la informacion que la API nos da sobre las po
   * Datos poblacion dividida por edad Mujeres
   *  Datos poblacion dividida por lugar de nacimiento
   *   Datos poblacion dividida por nacionalidad
+
+
+## 3 Day
+Aplicacion tkinter con dos pestañas:
+  * Primera pestaña: Bloc de notas(permite, crear, guardar abrir archivos)
+  * Segunda pestaña: Dejar de fumar(inacabada)
+  *  ```sh
+    De momento solo permite insertar i guardar datos
+    ```
