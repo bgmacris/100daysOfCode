@@ -46,7 +46,10 @@ Añadir funciones para interpretar la informacion que la API nos da sobre las po
 
 ## 3 Day
 Aplicacion tkinter con dos pestañas:
-  * Primera pestaña: Bloc de notas(permite, crear, guardar abrir archivos)
+  * Primera pestaña: Bloc de notas
+    ```sh
+    Permite, crear, guardar abrir archivos
+    ```
   * Segunda pestaña: Dejar de fumar(inacabada)
     ```sh
     De momento solo permite insertar i guardar datos
