@@ -10,9 +10,9 @@
 <details open="open">
   <summary><h2 style="display: inline-block">Index</h2></summary>
   <ol>
-    <li><a href="#1day">1 Day</a></li>
-    <li><a href="#2day">2 Day</a></li>
-    <li><a href="#3day">3 Day</a></li>
+    <li><a href="#1 day">1 Day</a></li>
+    <li><a href="#2 day">2 Day</a></li>
+    <li><a href="#3 day">3 Day</a></li>
   </ol>
 </details>
 
