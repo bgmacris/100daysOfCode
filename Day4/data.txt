@@ -1,0 +1,1 @@
+{"name": "Jose", "edad": "47", "cigarros_dia": "20", "a\u00f1os_fumando": "17", "que_fumas": "Tabaco"}
