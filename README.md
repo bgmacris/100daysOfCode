@@ -18,7 +18,7 @@
   </ol>
 </details>
 
-## 1 Day
+##1 Day
 
 Invistigar funcionamiento API Idescat.cat
  ```sh
