@@ -13,7 +13,8 @@
     <li><a href="#1 day">1 Day</a></li>
     <li><a href="#2 day">2 Day</a></li>
     <li><a href="#3 day">3 Day</a></li>
-    <li><a href="#4 day">3 Day</a></li>
+    <li><a href="#4 day">4 Day</a></li>
+    <li><a href="#5 day">5 Day</a></li>
   </ol>
 </details>
 
