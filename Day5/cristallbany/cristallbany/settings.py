@@ -77,11 +77,23 @@ WSGI_APPLICATION = 'cristallbany.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-DATABASES = {
+"""DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
+}"""
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'cristallbany',
+        'USER': 'going',
+        'PASSWORD': '1!guzq^HAY#e',
+        #'PASSWORD': 'DKmp&6%w^*2t',
+        'HOST': 'localhost',
+        'PORT': 3306,
+    },
 }
 
 
