@@ -13,6 +13,7 @@
     <li><a href="#1 day">1 Day</a></li>
     <li><a href="#2 day">2 Day</a></li>
     <li><a href="#3 day">3 Day</a></li>
+    <li><a href="#4 day">3 Day</a></li>
   </ol>
 </details>
 
@@ -56,3 +57,15 @@ Aplicacion tkinter con dos pestañas:
     ```sh
     De momento solo permite insertar i guardar datos
     ```
+    
+## 4 Day
+Seguimiento dia 3, aplicacion tkinter.
+  * Arreglo funciones de cargar/guardar datos
+  * Arreglo posicionamiento elementos
+  * Añadir calculo coste de cada cigarro, segun los datos del usuario
+
+## 5 Day
+Preparacion del entorno de trabajo de Django.
+  * Confoguracion archivos conexion Base de datos
+  * Configuracion estructura principal del proyecto
+  * Creacion del login/logout
