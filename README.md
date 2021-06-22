@@ -70,3 +70,8 @@ Preparacion del entorno de trabajo de Django.
   * Confoguracion archivos conexion Base de datos
   * Configuracion estructura principal del proyecto
   * Creacion del login/logout
+
+## 6 Day
+Continuar con el proyecto Django, cambios realizados:
+  * En las templates inicio-login
+  * archivos css/js
