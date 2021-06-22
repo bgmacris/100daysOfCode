@@ -1,0 +1,124 @@
+{% load static %}
+
+<!DOCTYPE html>
+<!--
+	Indus by TEMPLATE STOCK
+	templatestock.co @templatestock
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Indus HTML5 Free Responsive Template | Template stock</title>
+
+    <link rel="stylesheet" type="text/css" href="{% static 'css/inicio/menu.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/inicio/bootstrap.min.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/inicio/et-lineicon.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/inicio/font-awesome.min.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/inicio/style.css' %}" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,400italic,500italic,700' rel='stylesheet' type='text/css'>
+    <!--[if IE]>
+        	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+    <style>
+        .loader {
+            width: 200px;
+            height: 200px;
+            font-size: 0;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            background-image: url("{% static 'img/inicio/loader.gif' %}");
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: -100px 0 0 -100px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="animationload">
+        <div class="loader">
+            Loading...
+        </div>
+    </div>
+    <!-- End Preloader -->
+
+    <!-- =========================
+                 HOME
+        ========================== -->
+    <section id="home">
+        <div class="content">
+            <div id="large-header" class="large-header">
+                <canvas id="demo-canvas"></canvas>
+                <div id="countdown_dashboard" class="home-main container">
+                    <div class="row">
+                        <div class="logo">
+                            <h1>
+                                <p>Cristallbany</p>
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- DAYS -->
+                        <div class="col-md-3 col-sm-3 col-xs-6 dash-glob" data-scroll-reveal="enter bottom move 25px, after 0.3s">
+                            <div class="dash days_dash">
+                                <div class="digit">0</div>
+                                <span class="dash_title">Days</span>
+                            </div>
+                        </div>
+                        <!-- HOURS -->
+                        <div class="col-md-3 col-sm-3 col-xs-6 dash-glob" data-scroll-reveal="enter bottom move 25px, after 0.3s">
+                            <div class="dash hours_dash">
+                                <div class="digit">0</div>
+                                <span class="dash_title">Hours</span>
+                            </div>
+                        </div>
+                        <!-- MINUTES -->
+                        <div class="col-md-3 col-sm-3 col-xs-6 dash-glob" data-scroll-reveal="enter bottom move 25px, after 0.3s">
+                            <div class="dash minutes_dash">
+                                <div class="digit">0</div>
+                                <span class="dash_title">Minutes</span>
+                            </div>
+                        </div>
+                        <!-- SECONDS -->
+                        <div class="col-md-3 col-sm-3 col-xs-6 dash-glob" data-scroll-reveal="enter bottom move 25px, after 0.3s">
+                            <div class="dash seconds_dash">
+                                <div class="digit">0</div>
+                                <span class="dash_title">Seconds</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END ROW -->
+                </div>
+                <!-- END COUNTDOWN -->
+            </div>
+            <!-- LARGE HEADER -->
+        </div>
+        <!-- END CONTENT -->
+    </section>
+    <div>
+    </div>
+    <svg class="button-menu button-menu1" onclick="document.querySelector('.imageContainer').classList.toggle('active')">
+            <circle class="bg" r="12" cx="12" cy="12" />
+            <path class="line line1" d="M 6,8 H 18" />
+            <path class="line line2" d="M 6,12 H 18" />
+            <path class="line line3" d="M 6,16 H 18" />
+    </svg>
+
+
+    <!-- JAVASCRIPTS -->
+    <script src="{% static 'js/inicio/jquery.min.js' %}"></script>
+    <script src="{% static 'js/inicio/jquery.lwtCountdown-1.0.js' %}"></script>
+    <script src="{% static 'js/inicio/jquery.stellar.min.js' %}"></script>
+    <script src="{% static 'js/inicio/jquery.nicescroll.min.js' %}"></script>
+    <script src="{% static 'js/inicio/animated.js' %}"></script>
+    <script src="{% static 'js/inicio/main.js' %}"></script>
+</body>
+
+</html>
