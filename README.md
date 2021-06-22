@@ -15,6 +15,7 @@
     <li><a href="##3 day">3 Day</a></li>
     <li><a href="##4 day">4 Day</a></li>
     <li><a href="##5 day">5 Day</a></li>
+    <li><a href="##6 day">6 Day</a></li>
   </ol>
 </details>
 
