@@ -33,6 +33,9 @@ Crear el objeto principal, donde se van a realizar todas las peticiones.
   * Obtener Informacion de una poblacion, mediante su ID(Falta darte formato a la info)
   * Obtener todas las poblaciones
 
+Requiriments:
+  * flask
+
 # main.py
 Donde realiza la busqueda del apoblacion y su info
 
