@@ -16,6 +16,7 @@
     <li><a href="##4 day">4 Day</a></li>
     <li><a href="##5 day">5 Day</a></li>
     <li><a href="##6 day">6 Day</a></li>
+    <li><a href="##7 day">7 Day</a></li>
   </ol>
 </details>
 
@@ -31,6 +32,9 @@ Crear el objeto principal, donde se van a realizar todas las peticiones.
   * Obtener ID de una poblacion(poder buscarla)
   * Obtener Informacion de una poblacion, mediante su ID(Falta darte formato a la info)
   * Obtener todas las poblaciones
+
+Requiriments:
+  * flask
 
 # main.py
 Donde realiza la busqueda del apoblacion y su info
@@ -76,3 +80,11 @@ Preparacion del entorno de trabajo de Django.
 Continuar con el proyecto Django, cambios realizados:
   * En las templates inicio-login
   * archivos css/js
+
+
+## 7 Day
+Algoritmo de calculos de rutas(conexiones establecidas)(Busqueda en aplietud)
+archivo main para realizar la busqueda sin necesidad de la api.
+api:
+  */conexiones -> Devuelve las conexiones permitidas(json)
+  */search/<data> -> (data = Ex: Malaga, sevilla) buscar la ruta mas corta
