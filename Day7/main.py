@@ -26,7 +26,7 @@ def busqueda_amplietud(conexiones, estado_inicial, objetivo):
                 
 
 
-def search(estado_inicial, objetivo):
+if __name__ == '__main__':
     conexiones = {
             'malaga': {'salamanca', 'madrid', 'barcelona'},
             'sevilla': {'santiago', 'madrid'},
@@ -42,17 +42,15 @@ def search(estado_inicial, objetivo):
 
     # Para poder cambiarlo y ejeutar el script sin 
     # la necesidad de utilizar la api
-    estado_inicial = estado_inicial
-    objetivo = objetivo
+    estado_inicial = 'malaga'
+    objetivo = 'sevilla'
 
     resultado = []
     nodo_solucion = busqueda_amplietud(conexiones, estado_inicial, objetivo)
     nodo = nodo_solucion
-    print(nodo.get_padre(),"X")
     while nodo.get_padre() != None: 
         resultado.append(nodo.get_datos())
         nodo = nodo.get_padre()
     
     resultado.append(estado_inicial)
     print(resultado[::-1])
-    return resultado[::-1]
