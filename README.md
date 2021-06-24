@@ -98,6 +98,7 @@ asi hasta llegar a la solucion del problema.
 Ejemplo(Para entender el juego y como funciona los movimientos):
   * Estado Inicial = [4,3,2,1]
   * Solucion = [1,2,3,4]
-Primer movimiento = [3,4,2,1] -> Se han intercambiado el 4 con el 3, y el resto a seguido igual
-Segundo movimiento = [3,2,4,1] -> Se han intercambiado el 4 con el 2.
-Tercer movimiento = [3,2,1,4] -> Se han intercambiado el 4 con el 1.
+
+  * Primer movimiento = [3,4,2,1] -> Se han intercambiado el 4 con el 3, y el resto a seguido igual
+  * Segundo movimiento = [3,2,4,1] -> Se han intercambiado el 4 con el 2.
+  * Tercer movimiento = [3,2,1,4] -> Se han intercambiado el 4 con el 1.
