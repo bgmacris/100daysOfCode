@@ -18,6 +18,7 @@
     <li><a href="##6 day">6 Day</a></li>
     <li><a href="##7 day">7 Day</a></li>
     <li><a href="##8 day">8 Day</a></li>
+    <li><a href="##9 day">9 Day</a></li>
   </ol>
 </details>
 
@@ -102,3 +103,10 @@ Ejemplo(Para entender el juego y como funciona los movimientos):
     * Primer movimiento = [3,4,2,1] -> Se han intercambiado el 4 con el 3, y el resto a seguido igual
     * Segundo movimiento = [3,2,4,1] -> Se han intercambiado el 4 con el 2.
     * Tercer movimiento = [3,2,1,4] -> Se han intercambiado el 4 con el 1.
+
+## Day 9
+Servidor simple para un chat(grupal)
+  * Para ejecutar el servidor -> python3 server.py localhost, 8080 (donde pone localhost se puede utilizar una ip, y puerte puedes poner el que quieras)
+  * Para ejecutar los clientes -> python3 client.py localhost, 8080 (igual que arriba)
+  * Solo puede ejecutar un servidor en el mismo puerto, y puedes connectar los clientes que quieras al servidor
+  * Cuando alguien envia un mensaje se lo enviara a todos los otros connectados al server
