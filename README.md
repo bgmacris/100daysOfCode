@@ -17,6 +17,7 @@
     <li><a href="##5 day">5 Day</a></li>
     <li><a href="##6 day">6 Day</a></li>
     <li><a href="##7 day">7 Day</a></li>
+    <li><a href="##8 day">8 Day</a></li>
   </ol>
 </details>
 
@@ -88,3 +89,16 @@ archivo main para realizar la busqueda sin necesidad de la api.
 api:
   */conexiones -> Devuelve las conexiones permitidas(json)
   */search/<data> -> (data = Ex: Malaga, sevilla) buscar la ruta mas corta
+  
+## 8 Day
+Algoritmo de busquedada en amplietud, este algoritmo se encarga de resolver 
+puzles formados por 4 piezas, cada movimiento solo puede intercambiar dos piezas
+asi hasta llegar a la solucion del problema.
+
+Ejemplo(Para entender el juego y como funciona los movimientos):
+  * Estado Inicial = [4,3,2,1]
+  * Solucion = [1,2,3,4]
+
+    * Primer movimiento = [3,4,2,1] -> Se han intercambiado el 4 con el 3, y el resto a seguido igual
+    * Segundo movimiento = [3,2,4,1] -> Se han intercambiado el 4 con el 2.
+    * Tercer movimiento = [3,2,1,4] -> Se han intercambiado el 4 con el 1.
