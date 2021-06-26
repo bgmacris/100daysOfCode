@@ -114,4 +114,4 @@ Servidor simple para un chat(grupal)
 
 ## Day 10
 "Space Invaders"
-Solo estamontado la nave principal, movimientos y "mapa".
+  * Solo estamontado la nave principal, movimientos y "mapa".
