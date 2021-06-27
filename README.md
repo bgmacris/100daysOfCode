@@ -19,6 +19,7 @@
     <li><a href="##7 day">7 Day</a></li>
     <li><a href="##8 day">8 Day</a></li>
     <li><a href="##9 day">9 Day</a></li>
+    <li><a href="##10 day">10 Day</a></li>
   </ol>
 </details>
 
@@ -110,3 +111,7 @@ Servidor simple para un chat(grupal)
   * Para ejecutar los clientes -> python3 client.py localhost, 8080 (igual que arriba)
   * Solo puede ejecutar un servidor en el mismo puerto, y puedes connectar los clientes que quieras al servidor
   * Cuando alguien envia un mensaje se lo enviara a todos los otros connectados al server
+
+## Day 10
+"Space Invaders"
+  * Solo estamontado la nave principal, movimientos y "mapa".
