@@ -18,7 +18,6 @@ def dijkstra(grafo, nodo_inicial):
         # Obtener conexiones
         for conexion, peso in grafo[nodo_actual].items():
             if conexion not in pendientes and conexion not in visitados:
-                print(conexion)
                 pendientes.append(conexion)
             nuevo_peso = etiquetas[nodo_actual][0] + peso
 
@@ -45,7 +44,7 @@ def nodo_menor_peso(etiquetas, visitados):
 
 if __name__ == '__main__':
     mapa = draw_map()
-    print(mapa)
+    print(mapa, "\n")
     estado_inicial = (20,20)
     objetivo = (50, 50)
     
