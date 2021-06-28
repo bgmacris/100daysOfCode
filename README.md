@@ -20,6 +20,8 @@
     <li><a href="##8 day">8 Day</a></li>
     <li><a href="##9 day">9 Day</a></li>
     <li><a href="##10 day">10 Day</a></li>
+    <li><a href="##11 day">11 Day</a></li>
+    <li><a href="##12 day">12 Day</a></li>
   </ol>
 </details>
 
@@ -115,3 +117,12 @@ Servidor simple para un chat(grupal)
 ## Day 10
 "Space Invaders"
   * Solo estamontado la nave principal, movimientos y "mapa".
+
+
+## Day 11
+Algoritmo dijkstra, calcula la ruta de un punto del mapa a todos los otros puntos del mapa.
+
+## Day 12
+Aplicacion para descargar images de perfil de instagram.
+Se utiliza la api de https://rapidapi.com/ (https://rapidapi.com/logicbuilder/api/instagram-data1/)
+Es necesario crearse una cuenta, y luego en el codigo poner tus credenciales de la api.
