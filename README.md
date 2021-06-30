@@ -22,6 +22,7 @@
     <li><a href="##10 day">10 Day</a></li>
     <li><a href="##11 day">11 Day</a></li>
     <li><a href="##12 day">12 Day</a></li>
+    <li><a href="##13 day">13 Day</a></li>
   </ol>
 </details>
 
@@ -126,3 +127,7 @@ Algoritmo dijkstra, calcula la ruta de un punto del mapa a todos los otros punto
 Aplicacion para descargar images de perfil de instagram.
 Se utiliza la api de https://rapidapi.com/ (https://rapidapi.com/logicbuilder/api/instagram-data1/)
 Es necesario crearse una cuenta, y luego en el codigo poner tus credenciales de la api.
+
+## Day 13
+Generador de diccionarios para realizar fuerza bruta a partir de una lista de palabras
+Generador incompleto
