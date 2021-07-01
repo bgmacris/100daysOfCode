@@ -96,6 +96,7 @@ def generate_new_pass(variantes, password):
         while len(lst_index_) != 0 or len(nodos_frontera) != 0:
             for i in lst_index_:
                 variante = nodos_frontera.pop(0)
+                print(lst_index_)
                 if not variante.get_index_char("_"):
                     new_pass.replace_index(i, variante)
                     lst_index_.remove(i)
