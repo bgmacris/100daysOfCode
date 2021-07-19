@@ -1,6 +1,6 @@
 from explore import Explore
 
-exploreF = Explore('/home/pi/git-hub/100daysOfCode/')
+exploreF = Explore('PATH')
 exploreF.iterete_folders()
 
 all = exploreF.get_all()
