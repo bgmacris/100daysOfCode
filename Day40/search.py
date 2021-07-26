@@ -6,7 +6,7 @@ from apiclient.errors import HttpError
 import pafy
 import vlc
 
-API_KEY = 'AIzaSyAQeYyxjlPmmqEtakeOdQ6fvhzBMYVuuUk'
+API_KEY = 'TOKEN'
 SERVICE_NAME = 'youtube'
 SERVICE_VERSION = 'v3'
 
