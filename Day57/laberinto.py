@@ -93,6 +93,14 @@ if __name__ == '__main__':
 		my = muro[1]
 		laberinto[mx][my] = 'X'
 
+	laberinto = [
+		[' ', 'X', 'X', 'X', 'X'],
+		[' ', ' ', ' ', ' ', ' '],
+		[' ', 'X', ' ', 'X', ' '],
+		[' ', ' ', ' ', 'X', ' '],
+		['X', 'X', 'X', 'X', ' ']
+]
+
 	nodo_inicial = (0, 0)
 	nodo_final = (4, 4)
 
