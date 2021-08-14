@@ -1,0 +1,38 @@
+{% extends 'base/base.html' %}
+{% load static %}
+
+{% block title %}ONE PIECE{% endblock %}
+
+
+{% block style %}
+<style>
+    body {
+        background-color: black;
+        color: white;
+    }
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    h1 {
+        text-align: center;
+    }
+</style>
+{% endblock %}
+
+
+{% block header %}
+<img src="{% static 'img/bandera.png' %}" alt="bandera" class="center">
+{% endblock %}
+
+{% block content %}
+<h1> Introducir capitulo: </h3>
+<div style="text-align: center;">
+    <form method="post">
+        {% csrf_token %}
+        <input type="text" name="capitulo">
+        <input type="submit" value="Buscar">
+</div>
+{% endblock %}
