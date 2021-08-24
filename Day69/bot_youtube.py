@@ -3,7 +3,7 @@ import moviepy.editor as mp
 import telebot
 import os
 
-API_KEY = '1985071929:AAF8sfX7OXFlHDVSHPiIHVYa2oeND3ogQKI'
+API_KEY = 'API KEY'
 bot = telebot.TeleBot(API_KEY)
 
 global MUSIC_PATH
