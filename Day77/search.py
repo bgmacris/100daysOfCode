@@ -2,8 +2,7 @@ import os
 
 global PATH, FILE, FOUND_FILE
 PATH = input("Introduce la ruta del directorio que quieres explorar: ")
-# FILE = input("Introduce el nombre del archivo que quieres encontrar:")
-FILE = 'search.py'
+FILE = input("Introduce el nombre del archivo que quieres encontrar:")
 FOUND_FILE = []
 
 def get_subfolders(PATH):
