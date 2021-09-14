@@ -1,4 +1,8 @@
 import requests
+import telebot
+
+API_TELEGRAM = ''
+bot = telebot.TeleBot(API_TELEGRAM)
 
 key = ''
 API_KEY = f'?api_key={key}'
@@ -20,7 +24,7 @@ def search_champion(id):
 def get_player_id(name):
     response = requests.get(f'{PLAYER_DATA}{name}{API_KEY}')
     if response.status_code == 200:
-        return response.json()['id']
+        return (response.json()['id'], response.json()['summonerLevel'])
     else:
         return response.status_code
 
@@ -48,30 +52,58 @@ def get_player_leage(id):
                 'rank': data[0]['rank']
             }
         else:
-            return 'NO'
+            return 'No have'
     else:
         return False
+
+def get_data_match(id):
+	response = requests.get(f'{MATCH}{id}{API_KEY}')
+	data = response.json()
+	for i in data['frames'][-1]['events']:
+		print(i)
 
 def get_player_matches(id):
     response = requests.get(f'{PLAYER_MATCH}{id}{API_KEY}')
     if response.status_code == 200:
         data = response.json()
+        content = {}
         for i in data['matches']:
-            print(i)
-        return True
+            content[i['gameId']] = {
+				'champ': search_champion(i['champion']),
+				'role': i['role'],
+				'lane': i['lane']
+            }
+        return content
     else:
         print(response)
         return False
 
-player_id = get_player_id('kiticat111')
-player_count_id = get_player_count_id('kiticat111')
-print(player_id, player_count_id)
+@bot.message_handler(commands=['p'])
+def bot_player(message):
+	player_name = message.text.replace('/p ', '')
+	try:
+		player_data = {
+			'id': get_player_id(player_name)[0],
+			'count_id': get_player_count_id(player_name),
+			'lvl': get_player_id(player_name)[1]
+		}
+		is_in_game = get_active_game(player_data['id'])
+		league = get_player_leage(player_data['id'])
+		matches = get_player_matches(player_data['count_id'])
+		partidas = [[matches[i]['champ'], matches[i]['role'], matches[i]['lane']] for i in matches]
+		print(partidas)
+		response = f"""
+		{player_name} - lvl: {player_data['lvl']}
+		League: {league}
+		Matches:
+		"""
+		for i in partidas:
+			response = response + '-'.join(i) + '\n'
+		bot.reply_to(message, response)
+	except Exception as e:
+		print(e)
+		bot.reply_to(message, 'User not found')
 
-is_in_game = get_active_game(player_id)
-print(is_in_game)
 
-player_leage = get_player_leage(player_id)
-print(player_leage)
+bot.polling()
 
-maches = get_player_matches(player_count_id)
-print(maches)
